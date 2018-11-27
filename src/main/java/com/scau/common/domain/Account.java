@@ -1,15 +1,19 @@
 package com.scau.common.domain;
 
-public class Teacher {
+public class Account {
     private Integer id;
 
-    private String tname;
+    private String sname;
 
     private String account;
 
     private String password;
 
-    private Integer gender;
+    private Boolean gender;
+
+    private Integer gradeId;
+
+    private Byte role;
 
     private Integer orgId;
 
@@ -21,12 +25,12 @@ public class Teacher {
         this.id = id;
     }
 
-    public String getTname() {
-        return tname;
+    public String getSname() {
+        return sname;
     }
 
-    public void setTname(String tname) {
-        this.tname = tname;
+    public void setSname(String sname) {
+        this.sname = sname;
     }
 
     public String getAccount() {
@@ -45,12 +49,28 @@ public class Teacher {
         this.password = password;
     }
 
-    public Integer getGender() {
+    public Boolean getGender() {
         return gender;
     }
 
-    public void setGender(Integer gender) {
+    public void setGender(Boolean gender) {
         this.gender = gender;
+    }
+
+    public Integer getGradeId() {
+        return gradeId;
+    }
+
+    public void setGradeId(Integer gradeId) {
+        this.gradeId = gradeId;
+    }
+
+    public Byte getRole() {
+        return role;
+    }
+
+    public void setRole(Byte role) {
+        this.role = role;
     }
 
     public Integer getOrgId() {

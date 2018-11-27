@@ -11,7 +11,7 @@
     <javaModelGenerator targetPackage="com.scau.common.domain" targetProject="exam_common/src/main/java" />
     <sqlMapGenerator targetPackage="com.scau.common.mapper" targetProject="exam_common/src/main/resources" />
     <javaClientGenerator targetPackage="com.scau.common.mapper" targetProject="exam_common/src/main/java" type="XMLMAPPER" />
-    <table  tableName="administrator" domainObjectName="Administrator" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+    <table  tableName="account" domainObjectName="Account" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
     enableSelectByExample="false" selectByExampleQueryId="false">
     </table>
   </context>
